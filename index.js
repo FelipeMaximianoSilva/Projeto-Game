@@ -377,7 +377,7 @@ function historia (num)
 {
     if(num == 0)
     {
-        console.log(`\nAgente ${agente.nome}, 39 Anos, Membro da Interpol, tem como missão invadir uma instalação búlgara, matar o Coronel Vladislav e desativar o controle de bombas nucleares da base, você terá 6 horas para finalizar a missão, em caso de falha, toda Europa será destruída. Boa sorte Agente!\n`);
+        console.log(`\nAgente ${agente.nome}, 39 Anos, Membro da Interpol, tem como missão invadir uma instalação búlgara, matar o Coronel Vladislav e desativar o controle de bombas nucleares da base, você terá 4 horas para finalizar a missão, em caso de falha, toda Europa será destruída. Boa sorte Agente!\n`);
     }
     else if(num == 1)
     {
