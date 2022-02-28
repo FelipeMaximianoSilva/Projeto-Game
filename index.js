@@ -149,10 +149,10 @@ function endgame()
     if(endgameStats.bombdesat == 1 && endgameStats.bosskill == 1)
     {
         //Simplesmente Matou o Boss e Desativou a bomba
-        historia(7);
-        console.log("Você cumpriu sua missão Agente! A bomba foi desarmada e o alvo foi eliminado, a equipe de evacuação chegará ao local em 10 minutos.");
+        console.log("\nVocê cumpriu sua missão Agente! A bomba foi desarmada e o alvo foi eliminado, a equipe de evacuação chegará ao local em 10 minutos.\n");
         historia(10);
         endgameStats.endtotal = 1;
+        startgame();
     }
     else if(endgameStats.indexroub == 1)
     {
@@ -162,6 +162,7 @@ function endgame()
             historia(8);
             historia(10);
             endgameStats.endtotal = 1;
+            startgame();
         }
         else if(endgameStats.escolhaindex == 2)
         {
@@ -169,6 +170,7 @@ function endgame()
             historia(9);
             historia(10);
             endgameStats.endtotal = 1;
+            startgame();
         }
     }
     else if(endgameStats.semtempo == 1)
@@ -176,6 +178,7 @@ function endgame()
         historia(11);
         historia(10);
         endgameStats.endtotal = 1;
+        startgame();
     }
 }
 
